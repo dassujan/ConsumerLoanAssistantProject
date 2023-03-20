@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+E:\PROGRAMMING WORKSPACE\Java_Project_suvenconsultants_Internship\ConsumerLoanAssistantProject\.metadata\.plugins\org.eclipse.jdt.core
+3543422066.index
+1865797976.index
+1503752121.index
