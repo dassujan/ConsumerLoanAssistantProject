@@ -36,7 +36,7 @@ public class LoanAssistant extends JFrame
 	Color lightYellow = new Color(255,255,128);
 	boolean computePayment;
 	
-///*********************** MAIN METHOD*********************************///
+	///********MAIN METHOD*********///
 	public static void main(String[] args) {
 		
 		new LoanAssistant();
@@ -155,6 +155,7 @@ public class LoanAssistant extends JFrame
 		});
 	
 ///----------------------- Buttons-------------------------------------///
+	
 		//computeButton
 		gbc = new GridBagConstraints();
 		gbc.gridx = 0;
@@ -220,7 +221,6 @@ public class LoanAssistant extends JFrame
 				paymentButtonActionPerformed(e);
 			}
 		});
-		
 ///----------------------- Loan Analysis-------------------------------///
 		analysisLabel.setFont(myFont);
 		gbc = new GridBagConstraints();
@@ -264,7 +264,7 @@ public class LoanAssistant extends JFrame
 		
 		paymentButton.doClick();
 		
-///------------------------ Frame--------------------------------------///
+///-----------------------Frame---------------------------------------///
 		//frame
 		setTitle("Loan Assistant");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

@@ -36,7 +36,7 @@ public class LoanAssistant extends JFrame
 	Color lightYellow = new Color(255,255,128);
 	boolean computePayment;
 	
-///*********************** MAIN METHOD*********************************///
+	///********MAIN METHOD*********///
 	public static void main(String[] args) {
 		
 		new LoanAssistant();
@@ -264,7 +264,7 @@ public class LoanAssistant extends JFrame
 		
 		paymentButton.doClick();
 		
-///------------------------ Frame--------------------------------------///
+///-----------------------Frame---------------------------------------///
 		//frame
 		setTitle("Loan Assistant");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
